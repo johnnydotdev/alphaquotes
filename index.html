@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="foundation.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="http://code.angularjs.org/1.1.5/angular.min.js"></script>
+</head>
+<body ng-controller="QuoteController" data-ng-init="randomQuote()">
+    <div class="wrapper">
+        <div class="inner">
+            <a href="#" style="text-decoration: none;" ng-click="randomQuote()">{{quote}}</a>
+        </div>
+    </div>
+
+    <script src="controller.js" type="text/javascript"></script>
+</body>
+
+<footer>
+    <h5>Built with <a href="http://angularjs.org">AngularJS</a> | Created by
+        <a href="http://johnnychang.com/">Johnny Chang</a></h5>
+</footer>
+</html>
